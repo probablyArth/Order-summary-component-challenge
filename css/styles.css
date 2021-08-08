@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: hsl(224, 23%, 55%);
+}
+.dad{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+    position: absolute;
+    height: 700px;
+    /* background-size: cover; */
+    width: 100%;
+    /* padding-top: 50px; */
+    z-index: -1;
+    display: flex;
+    align-content: center;
+    
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 500px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 15px 60px hsl(224, 23%, 55%);
+    z-index: 5;
+}
+
+.container img{
+    width: fit-content;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.child{
+    padding: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* max-width: inherit; */
+    align-self: center;
+
+}
+
+.child h1{
+    align-self: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.child p{
+    max-width: fit-content;
+    text-align: center;
+    margin: 25px;
+}
+
+.plan-container{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding: 3px 2px;
+    border-radius: 10px;
+}
+
+
+.plan-container div{
+    padding: 2px 10px;
+    margin: 5px;
+    align-self: center;
+}
+
+.plan-text h3{
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-container a{
+    text-decoration: none;
+}
+
+.btn-p{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    align-self: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 10px 5px rgba(79, 53, 172, 0.192);
+}
+
+.btn-p:hover{
+    cursor: pointer;
+    background-color: hsl(241, 50%, 51%);
+    transition: 0.2s;
+}
+
+.cancel{
+    align-self: center;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    transition: 0.5s;
+}
+
+.plan-container div a:hover{
+    color: hsl(223, 47%, 23%);
+    transition: 0.5s;
+}
