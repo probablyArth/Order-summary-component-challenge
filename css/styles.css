@@ -7,7 +7,7 @@
     color: hsl(224, 23%, 55%);
 }
 .dad{
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: red; */
